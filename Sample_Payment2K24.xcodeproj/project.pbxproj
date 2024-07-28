@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */; };
 		1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */; };
-		1DD28AD92C5575AB00870FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD82C5575AB00870FF7 /* ViewController.swift */; };
+		1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */; };
 		1DD28ADC2C5575AB00870FF7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DD28ADB2C5575AB00870FF7 /* Base */; };
 		1DD28ADE2C5575AE00870FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD28ADD2C5575AE00870FF7 /* Assets.xcassets */; };
 		1DD28AE12C5575AE00870FF7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DD28AE02C5575AE00870FF7 /* Base */; };
@@ -17,13 +17,15 @@
 		1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */; };
 		1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF72C557D4800870FF7 /* Constants.swift */; };
 		1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF92C557D5100870FF7 /* Extensions.swift */; };
+		1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */; };
+		1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DD28AD82C5575AB00870FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		1DD28ADB2C5575AB00870FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DD28ADD2C5575AE00870FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD28AE02C5575AE00870FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModelEntity.swift; sourceTree = "<group>"; };
 		1DD28AF72C557D4800870FF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1DD28AF92C557D5100870FF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				1DD28AE82C55771100870FF7 /* Application */,
+				1DE9F1E42C56C533000EEE07 /* Resource */,
+				1DE9F1E32C56C523000EEE07 /* Base Model */,
+				1DE9F1E52C56C53D000EEE07 /* Thirdparties */,
 				1DD28AEE2C5577E500870FF7 /* Modules */,
 				1DD28AEB2C55778500870FF7 /* UIComponents */,
 				1DD28AEC2C55779000870FF7 /* Helper */,
-				1DD28AED2C55779800870FF7 /* Resources */,
+				1DD28AED2C55779800870FF7 /* Supporting Files */,
 				1DD28ADD2C5575AE00870FF7 /* Assets.xcassets */,
 				1DD28ADF2C5575AE00870FF7 /* LaunchScreen.storyboard */,
 				1DD28AE22C5575AE00870FF7 /* Info.plist */,
@@ -88,7 +95,7 @@
 		1DD28AE92C55776000870FF7 /* HomeScreenModule */ = {
 			isa = PBXGroup;
 			children = (
-				1DD28AD82C5575AB00870FF7 /* ViewController.swift */,
+				1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */,
 				1DD28ADA2C5575AB00870FF7 /* Main.storyboard */,
 			);
 			path = HomeScreenModule;
@@ -112,42 +119,28 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		1DD28AED2C55779800870FF7 /* Resources */ = {
+		1DD28AED2C55779800870FF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				1DD28AEF2C55784100870FF7 /* Colors.xcassets */,
 			);
-			path = Resources;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1DD28AEE2C5577E500870FF7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1DD28AF12C55789600870FF7 /* SplashScreenModule */,
-				1DD28AF22C5578A100870FF7 /* OnboardingScreenModule */,
 				1DD28AF32C5578AB00870FF7 /* LoginScreenModule */,
 				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		1DD28AF12C55789600870FF7 /* SplashScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SplashScreenModule;
-			sourceTree = "<group>";
-		};
-		1DD28AF22C5578A100870FF7 /* OnboardingScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = OnboardingScreenModule;
-			sourceTree = "<group>";
-		};
 		1DD28AF32C5578AB00870FF7 /* LoginScreenModule */ = {
 			isa = PBXGroup;
 			children = (
+				1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */,
+				1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */,
 			);
 			path = LoginScreenModule;
 			sourceTree = "<group>";
@@ -157,6 +150,27 @@
 			children = (
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		1DE9F1E32C56C523000EEE07 /* Base Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Base Model";
+			sourceTree = "<group>";
+		};
+		1DE9F1E42C56C533000EEE07 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1DE9F1E52C56C53D000EEE07 /* Thirdparties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirdparties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +234,7 @@
 				1DD28ADE2C5575AE00870FF7 /* Assets.xcassets in Resources */,
 				1DD28AF02C55784100870FF7 /* Colors.xcassets in Resources */,
 				1DD28AE12C5575AE00870FF7 /* Base in Resources */,
+				1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */,
 				1DD28ADC2C5575AB00870FF7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,8 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */,
+				1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */,
 				1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */,
-				1DD28AD92C5575AB00870FF7 /* ViewController.swift in Sources */,
+				1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
