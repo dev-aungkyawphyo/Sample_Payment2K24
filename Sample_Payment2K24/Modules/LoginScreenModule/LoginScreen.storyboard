@@ -40,13 +40,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Nrl-q7-ATj">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="105"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4D-Xb-Lp5">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4D-Xb-Lp5">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="35"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <color key="textColor" name="PrimaryTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Example@gmail.com" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="0pO-lM-H30">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="0pO-lM-H30">
                                                 <rect key="frame" x="0.0" y="35" width="353" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="4DU-MB-S5d"/>
@@ -97,7 +97,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSb-O2-4DG" customClass="CustomButton" customModule="ComfortZone" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSb-O2-4DG" customClass="CustomButton" customModule="Sample_Payment2K24" customModuleProvider="target">
                                 <rect key="frame" x="20" y="489" width="353" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ynO-zP-ibY"/>
@@ -182,12 +182,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="emailErrorLabel" destination="6bU-DS-qOe" id="mDN-M6-aHN"/>
-                        <outlet property="emailTextField" destination="0pO-lM-H30" id="G5h-4n-1bA"/>
                         <outlet property="facebookBtn" destination="QlD-s6-obb" id="h9q-QU-nCr"/>
                         <outlet property="googleBtn" destination="k5R-vY-Kry" id="gxV-wp-SJL"/>
                         <outlet property="passwordErrorLabel" destination="9dU-X4-kqs" id="mcW-ot-scY"/>
                         <outlet property="passwordTextField" destination="WI3-xf-mtU" id="sdY-7b-VNP"/>
+                        <outlet property="usernameErrorLabel" destination="6bU-DS-qOe" id="eEX-9f-1Sl"/>
+                        <outlet property="usernameTextField" destination="0pO-lM-H30" id="2Yq-ux-Vck"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -19,6 +19,17 @@
 		1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF92C557D5100870FF7 /* Extensions.swift */; };
 		1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */; };
 		1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */; };
+		1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */; };
+		1DE9F1F12C56D822000EEE07 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F02C56D822000EEE07 /* RoundedButton.swift */; };
+		1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F22C56D847000EEE07 /* DesignableView.swift */; };
+		1DE9F1F52C56DA3E000EEE07 /* LoginScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F42C56DA3E000EEE07 /* LoginScreenProtocols.swift */; };
+		1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F62C56DA55000EEE07 /* LoginScreenEntity.swift */; };
+		1DE9F1FD2C56DD58000EEE07 /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F82C56DD58000EEE07 /* SQLiteBase.swift */; };
+		1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1F92C56DD58000EEE07 /* CloudDB.swift */; };
+		1DE9F1FF2C56DD58000EEE07 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1FB2C56DD58000EEE07 /* SQLTable.swift */; };
+		1DE9F2002C56DD58000EEE07 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */; };
+		1DE9F2072C56DF45000EEE07 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */; };
+		1DE9F2082C56DF45000EEE07 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +47,28 @@
 		1DD28AF92C557D5100870FF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1DE9F1F02C56D822000EEE07 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1DE9F1F22C56D847000EEE07 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		1DE9F1F42C56DA3E000EEE07 /* LoginScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenProtocols.swift; sourceTree = "<group>"; };
+		1DE9F1F62C56DA55000EEE07 /* LoginScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenEntity.swift; sourceTree = "<group>"; };
+		1DE9F1F82C56DD58000EEE07 /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBase.swift; sourceTree = "<group>"; };
+		1DE9F1F92C56DD58000EEE07 /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDB.swift; sourceTree = "<group>"; };
+		1DE9F1FA2C56DD58000EEE07 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		1DE9F1FB2C56DD58000EEE07 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamplePayment.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1DD28ACE2C5575AB00870FF7 /* Frameworks */ = {
+		1DE9F2062C56DF1D000EEE07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE9F2072C56DF45000EEE07 /* libsqlite3.0.tbd in Frameworks */,
+				1DE9F2082C56DF45000EEE07 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +80,7 @@
 			children = (
 				1DD28AD32C5575AB00870FF7 /* Sample_Payment2K24 */,
 				1DD28AD22C5575AB00870FF7 /* Products */,
+				1DE9F2012C56DF0C000EEE07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,8 +97,8 @@
 			children = (
 				1DD28AE82C55771100870FF7 /* Application */,
 				1DE9F1E42C56C533000EEE07 /* Resource */,
-				1DE9F1E32C56C523000EEE07 /* Base Model */,
 				1DE9F1E52C56C53D000EEE07 /* Thirdparties */,
+				1DE9F1E32C56C523000EEE07 /* Base Model */,
 				1DD28AEE2C5577E500870FF7 /* Modules */,
 				1DD28AEB2C55778500870FF7 /* UIComponents */,
 				1DD28AEC2C55779000870FF7 /* Helper */,
@@ -139,8 +166,10 @@
 		1DD28AF32C5578AB00870FF7 /* LoginScreenModule */ = {
 			isa = PBXGroup;
 			children = (
-				1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */,
 				1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */,
+				1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */,
+				1DE9F1F42C56DA3E000EEE07 /* LoginScreenProtocols.swift */,
+				1DE9F1F62C56DA55000EEE07 /* LoginScreenEntity.swift */,
 			);
 			path = LoginScreenModule;
 			sourceTree = "<group>";
@@ -148,6 +177,9 @@
 		1DD28AF42C5578C500870FF7 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */,
+				1DE9F1F02C56D822000EEE07 /* RoundedButton.swift */,
+				1DE9F1F22C56D847000EEE07 /* DesignableView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -162,6 +194,7 @@
 		1DE9F1E42C56C533000EEE07 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -169,8 +202,22 @@
 		1DE9F1E52C56C53D000EEE07 /* Thirdparties */ = {
 			isa = PBXGroup;
 			children = (
+				1DE9F1FA2C56DD58000EEE07 /* Bridging-Header.h */,
+				1DE9F1F92C56DD58000EEE07 /* CloudDB.swift */,
+				1DE9F1F82C56DD58000EEE07 /* SQLiteBase.swift */,
+				1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */,
+				1DE9F1FB2C56DD58000EEE07 /* SQLTable.swift */,
 			);
 			path = Thirdparties;
+			sourceTree = "<group>";
+		};
+		1DE9F2012C56DF0C000EEE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */,
+				1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +228,7 @@
 			buildConfigurationList = 1DD28AE52C5575AE00870FF7 /* Build configuration list for PBXNativeTarget "Sample_Payment2K24" */;
 			buildPhases = (
 				1DD28ACD2C5575AB00870FF7 /* Sources */,
-				1DD28ACE2C5575AB00870FF7 /* Frameworks */,
+				1DE9F2062C56DF1D000EEE07 /* Frameworks */,
 				1DD28ACF2C5575AB00870FF7 /* Resources */,
 			);
 			buildRules = (
@@ -246,13 +293,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE9F1FD2C56DD58000EEE07 /* SQLiteBase.swift in Sources */,
+				1DE9F2002C56DD58000EEE07 /* SQLiteDB.swift in Sources */,
 				1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */,
+				1DE9F1F52C56DA3E000EEE07 /* LoginScreenProtocols.swift in Sources */,
 				1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */,
 				1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */,
 				1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */,
+				1DE9F1F12C56D822000EEE07 /* RoundedButton.swift in Sources */,
+				1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */,
+				1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
+				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
+				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
+				1DE9F1FF2C56DD58000EEE07 /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationcollections.Sample-Payment2K24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample_Payment2K24/Thirdparties/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationcollections.Sample-Payment2K24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample_Payment2K24/Thirdparties/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
