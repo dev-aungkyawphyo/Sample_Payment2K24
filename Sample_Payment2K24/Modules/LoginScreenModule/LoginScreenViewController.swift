@@ -10,9 +10,9 @@ import UIKit
 class LoginScreenViewController: UIViewController {
     
     // MARK: Outlets
-    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var emailErrorLabel: UILabel!
+    @IBOutlet weak var usernameErrorLabel: UILabel!
     @IBOutlet weak var passwordErrorLabel: UILabel!
     @IBOutlet weak var googleBtn: UIButton!
     @IBOutlet weak var facebookBtn: UIButton!
