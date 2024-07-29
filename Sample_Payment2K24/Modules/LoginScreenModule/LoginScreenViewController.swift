@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class LoginScreenViewController: UIViewController {
     
@@ -104,15 +105,26 @@ extension LoginScreenViewController {
     }
     
     @IBAction func didTappedGoogleBtn(_ sender: UIButton) {
-        
+        GIDSignIn.sharedInstance.signIn(withPresenting: self) { GIDSignInResult, error in
+            guard let googleUser = GIDSignInResult?.user,
+                  let userId = googleUser.userID,
+                  let idToken = googleUser.idToken else {
+                print("Error: ID token missing!")
+                return
+            }
+            print(userId)
+            print(idToken)
+            self.loginRouter()
+        }
     }
     
     @IBAction func didTappedFacebookBtn(_ sender: UIButton) {
-        
+        // TODO: Action need
     }
     
     @IBAction func didTappedRegisterBtn(_ sender: UIButton) {
-        
+        // TODO: Action need
     }
     
 }
+
