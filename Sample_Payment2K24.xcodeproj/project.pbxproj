@@ -30,6 +30,9 @@
 		1DE9F2002C56DD58000EEE07 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */; };
 		1DE9F2072C56DF45000EEE07 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */; };
 		1DE9F2082C56DF45000EEE07 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */; };
+		1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */; };
+		1DF115372C58120D004C5031 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115362C58120D004C5031 /* Bank.swift */; };
+		1DF115392C581218004C5031 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115382C581218004C5031 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamplePayment.sqlite; sourceTree = "<group>"; };
+		1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1DF115362C58120D004C5031 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		1DF115382C581218004C5031 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,7 @@
 				1DD28AE82C55771100870FF7 /* Application */,
 				1DE9F1E42C56C533000EEE07 /* Resource */,
 				1DE9F1E52C56C53D000EEE07 /* Thirdparties */,
-				1DE9F1E32C56C523000EEE07 /* Base Model */,
+				1DE9F20E2C56EB6F000EEE07 /* Models */,
 				1DD28AEE2C5577E500870FF7 /* Modules */,
 				1DD28AEB2C55778500870FF7 /* UIComponents */,
 				1DD28AEC2C55779000870FF7 /* Helper */,
@@ -184,13 +190,6 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		1DE9F1E32C56C523000EEE07 /* Base Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Base Model";
-			sourceTree = "<group>";
-		};
 		1DE9F1E42C56C533000EEE07 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +217,16 @@
 				1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE9F20E2C56EB6F000EEE07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DF115362C58120D004C5031 /* Bank.swift */,
+				1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */,
+				1DF115382C581218004C5031 /* Account.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,10 +313,13 @@
 				1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */,
 				1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
+				1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */,
 				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
+				1DF115372C58120D004C5031 /* Bank.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
+				1DF115392C581218004C5031 /* Account.swift in Sources */,
 				1DE9F1FF2C56DD58000EEE07 /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
