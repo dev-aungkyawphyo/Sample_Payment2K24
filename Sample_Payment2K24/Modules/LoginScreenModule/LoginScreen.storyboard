@@ -108,6 +108,9 @@
                                     <color key="baseForegroundColor" name="BtnTextColor"/>
                                     <color key="baseBackgroundColor" name="PrimaryColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTappedLoginBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Avq-g6-Z4X"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or Continue With" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cs-Qh-GRD">
                                 <rect key="frame" x="127.33333333333333" y="574" width="138.66666666666669" height="21.666666666666629"/>
@@ -128,6 +131,9 @@
                                         <buttonConfiguration key="configuration" style="filled" image="google">
                                             <color key="baseBackgroundColor" name="PrimaryViewColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTappedGoogleBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pbK-R7-py4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlD-s6-obb">
                                         <rect key="frame" x="79.999999999999986" y="0.0" width="60.000000000000014" height="60"/>
@@ -135,6 +141,9 @@
                                         <buttonConfiguration key="configuration" style="filled" image="facebook">
                                             <color key="baseBackgroundColor" name="PrimaryViewColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTappedFacebookBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qOa-7r-IK7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -157,6 +166,9 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                             <color key="baseForegroundColor" name="PrimaryColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTappedRegisterBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="coH-0r-2T2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
