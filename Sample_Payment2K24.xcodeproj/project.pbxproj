@@ -33,6 +33,7 @@
 		1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */; };
 		1DF115372C58120D004C5031 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115362C58120D004C5031 /* Bank.swift */; };
 		1DF115392C581218004C5031 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115382C581218004C5031 /* Account.swift */; };
+		1DF1153C2C582B2C004C5031 /* Payment.db in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1153B2C582B2C004C5031 /* Payment.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,10 +63,10 @@
 		1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
 		1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamplePayment.sqlite; sourceTree = "<group>"; };
 		1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		1DF115362C58120D004C5031 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		1DF115382C581218004C5031 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1DF1153B2C582B2C004C5031 /* Payment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Payment.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +194,7 @@
 		1DE9F1E42C56C533000EEE07 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */,
+				1DF1153B2C582B2C004C5031 /* Payment.db */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -291,6 +292,7 @@
 				1DD28AF02C55784100870FF7 /* Colors.xcassets in Resources */,
 				1DD28AE12C5575AE00870FF7 /* Base in Resources */,
 				1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */,
+				1DF1153C2C582B2C004C5031 /* Payment.db in Resources */,
 				1DD28ADC2C5575AB00870FF7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

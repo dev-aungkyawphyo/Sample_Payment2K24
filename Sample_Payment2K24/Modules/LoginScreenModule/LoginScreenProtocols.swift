@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol LoginScreenProtocols: AnyObject {
+    func showTextFieldErrorLabel(error: ValidationErrors)
+    func loginRouter()
+}
