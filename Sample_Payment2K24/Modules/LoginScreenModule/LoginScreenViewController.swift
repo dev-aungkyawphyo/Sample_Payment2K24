@@ -15,8 +15,6 @@ class LoginScreenViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var usernameErrorLabel: UILabel!
     @IBOutlet weak var passwordErrorLabel: UILabel!
-    @IBOutlet weak var googleBtn: UIButton!
-    @IBOutlet weak var facebookBtn: UIButton!
     
     var bank = Bank()
     var delegate: LoginScreenProtocols?
@@ -83,7 +81,7 @@ extension LoginScreenViewController: LoginScreenProtocols {
     }
     
     func loginRouter() {
-        let vc = HomeScreenViewController.instantiate(name: .HomeScreenViewController)
+        let vc = DesignableTabBarScreenViewController.instantiate(name: .DesignableTabBarScreenViewController)
         vc.modalTransitionStyle = .crossDissolve
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)

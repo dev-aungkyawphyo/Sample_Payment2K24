@@ -87,7 +87,7 @@ extension UIViewController {
     }
     
     enum BaseRouter: String {
-        case HomeScreenViewController = "Main"
+        case DesignableTabBarScreenViewController = "Main"
     }
     
 }
