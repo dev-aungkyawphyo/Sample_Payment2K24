@@ -1,30 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E3e-FQ-vye">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Screen View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="HomeScreenViewController" id="BYZ-38-t0r" customClass="HomeScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="190-n8-9wR">
+                                <rect key="frame" x="0.0" y="59" width="393" height="858"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E28-V7-Ts5">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="858"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="E28-V7-Ts5" firstAttribute="leading" secondItem="190-n8-9wR" secondAttribute="leading" id="87E-zL-T4t"/>
+                                    <constraint firstItem="E28-V7-Ts5" firstAttribute="top" secondItem="190-n8-9wR" secondAttribute="top" id="MIo-yJ-FKn"/>
+                                    <constraint firstAttribute="bottom" secondItem="E28-V7-Ts5" secondAttribute="bottom" id="Ogx-WB-wW4"/>
+                                    <constraint firstItem="E28-V7-Ts5" firstAttribute="height" secondItem="190-n8-9wR" secondAttribute="height" priority="750" id="PCB-fY-5wP"/>
+                                    <constraint firstAttribute="trailing" secondItem="E28-V7-Ts5" secondAttribute="trailing" id="jLM-2g-7TP"/>
+                                    <constraint firstItem="E28-V7-Ts5" firstAttribute="width" secondItem="190-n8-9wR" secondAttribute="width" id="sMd-yM-ePe"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="5YO-bu-xZ0"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="QRN-Yr-OQf"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="190-n8-9wR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AJ2-bG-KdF"/>
+                            <constraint firstItem="190-n8-9wR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TRU-cn-tRY"/>
+                            <constraint firstItem="190-n8-9wR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="e6G-iC-0UA"/>
+                            <constraint firstItem="190-n8-9wR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xXq-hd-yMM"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="icon01" id="lma-ut-CPO"/>
+                    <size key="freeformSize" width="393" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-2"/>
+            <point key="canvasLocation" x="983.96946564885491" y="-2.1126760563380285"/>
+        </scene>
+        <!--Wallet-->
+        <scene sceneID="WI2-5E-lGk">
+            <objects>
+                <viewController id="C1R-OD-zgL" customClass="MyWalletScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dVD-O3-dIO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UXu-rv-zLJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Wallet" image="icon02" id="bjH-2F-cA7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5w-9x-6yz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805" y="-54"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="rAZ-dj-Rh9">
+            <objects>
+                <viewController id="iun-CF-AYA" customClass="ProfileScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X2T-tM-fsK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vhW-L4-eBN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="icon05" id="wC9-AX-efS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxv-v0-fGH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4190" y="-54"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="Jcq-O5-AEX">
+            <objects>
+                <viewController id="fVJ-JV-ooa" customClass="NotificationScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YO3-eH-wrt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iEK-kq-hun"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notification" image="icon04" id="fkA-dK-oyg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hH8-T4-pKN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3382" y="-54"/>
+        </scene>
+        <!--Scanner-->
+        <scene sceneID="z15-4p-VjV">
+            <objects>
+                <viewController id="LCZ-io-PQO" customClass="QRScanScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XHy-sK-PFi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9iy-Vf-adM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scanner" image="icon03" id="eL1-Av-fMZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUN-P0-7UF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2575" y="-54"/>
+        </scene>
+        <!--Designable Tab Bar Screen View Controller-->
+        <scene sceneID="Xba-29-Pjo">
+            <objects>
+                <tabBarController storyboardIdentifier="DesignableTabBarScreenViewController" automaticallyAdjustsScrollViewInsets="NO" id="E3e-FQ-vye" customClass="DesignableTabBarScreenViewController" customModule="Sample_Payment2K24" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qM5-kU-YCI">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="PrimaryViewColor"/>
+                        <color key="selectedImageTintColor" name="PrimaryTextColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="6OQ-hS-J6Z"/>
+                        <segue destination="C1R-OD-zgL" kind="relationship" relationship="viewControllers" id="Ncv-V7-c5j"/>
+                        <segue destination="LCZ-io-PQO" kind="relationship" relationship="viewControllers" id="2wL-1c-2a0"/>
+                        <segue destination="fVJ-JV-ooa" kind="relationship" relationship="viewControllers" id="GCf-Gc-htf"/>
+                        <segue destination="iun-CF-AYA" kind="relationship" relationship="viewControllers" id="ZFR-Lf-Fbx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eri-4S-R8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576" y="-1248"/>
         </scene>
     </scenes>
     <resources>
+        <image name="icon01" width="32" height="32"/>
+        <image name="icon02" width="32" height="32"/>
+        <image name="icon03" width="32" height="32"/>
+        <image name="icon04" width="32" height="32"/>
+        <image name="icon05" width="32" height="32"/>
+        <namedColor name="PrimaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PrimaryViewColor">
+            <color red="0.87800002098083496" green="0.87800002098083496" blue="0.87800002098083496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
