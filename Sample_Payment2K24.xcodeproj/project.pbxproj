@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D32E0802C59717900701AD4 /* MyWalletScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E07F2C59717900701AD4 /* MyWalletScreenViewController.swift */; };
 		1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0812C5971BC00701AD4 /* QRScanScreenViewController.swift */; };
-		1D32E0842C5972ED00701AD4 /* NotificationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0832C5972ED00701AD4 /* NotificationScreenViewController.swift */; };
+		1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */; };
 		1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */; };
 		1D32E08D2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */; };
 		1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */; };
@@ -46,7 +46,7 @@
 /* Begin PBXFileReference section */
 		1D32E07F2C59717900701AD4 /* MyWalletScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletScreenViewController.swift; sourceTree = "<group>"; };
 		1D32E0812C5971BC00701AD4 /* QRScanScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanScreenViewController.swift; sourceTree = "<group>"; };
-		1D32E0832C5972ED00701AD4 /* NotificationScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScreenViewController.swift; sourceTree = "<group>"; };
+		1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenViewController.swift; sourceTree = "<group>"; };
 		1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
 		1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBarScreenViewController.swift; sourceTree = "<group>"; };
 		1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,12 +112,12 @@
 			path = QRScannerScreenModule;
 			sourceTree = "<group>";
 		};
-		1D32E0892C5974D100701AD4 /* NotificationScreenModule */ = {
+		1D32E0892C5974D100701AD4 /* RewardScreenModule */ = {
 			isa = PBXGroup;
 			children = (
-				1D32E0832C5972ED00701AD4 /* NotificationScreenViewController.swift */,
+				1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */,
 			);
-			path = NotificationScreenModule;
+			path = RewardScreenModule;
 			sourceTree = "<group>";
 		};
 		1D32E08A2C5974E100701AD4 /* ProfileScreenModule */ = {
@@ -223,7 +223,7 @@
 				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
 				1D32E0872C5974AC00701AD4 /* MyWalletScreenModule */,
 				1D32E0882C5974C000701AD4 /* QRScannerScreenModule */,
-				1D32E0892C5974D100701AD4 /* NotificationScreenModule */,
+				1D32E0892C5974D100701AD4 /* RewardScreenModule */,
 				1D32E08A2C5974E100701AD4 /* ProfileScreenModule */,
 			);
 			path = Modules;
@@ -384,7 +384,7 @@
 				1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
 				1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */,
-				1D32E0842C5972ED00701AD4 /* NotificationScreenViewController.swift in Sources */,
+				1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */,
 				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NotificationScreenViewController: UIViewController {
+class RewardScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
