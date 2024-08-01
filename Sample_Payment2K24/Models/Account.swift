@@ -38,5 +38,25 @@ class Account {
         self._isAdmin = (userDictionary["isAdmin"] as? Int ?? 0) == 1
     }
     
+    var amount: Double {
+        let transaction = _dbManager.fetchTranscation(userid: id).map { transactionDict in
+            return Transaction(json: transactionDict)
+        }
+        var tmpAmount = 0.0
+        for transac in transaction {
+            if transac.opr == .cashIn {
+                tmpAmount += transac.amount
+            } else if transac.opr == .cashOut {
+                tmpAmount -= transac.amount
+            } else if transac.opr == .transfer {
+                if transac.fromID == id {
+                    tmpAmount -= transac.amount
+                } else if transac.fromID != id {
+                    tmpAmount += transac.amount
+                }
+            }
+        }
+        return tmpAmount
+    }
     
 }

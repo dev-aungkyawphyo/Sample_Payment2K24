@@ -22,6 +22,8 @@
 		1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */; };
 		1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF72C557D4800870FF7 /* Constants.swift */; };
 		1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF92C557D5100870FF7 /* Extensions.swift */; };
+		1DD965C92C5B93DC00958E82 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */; };
+		1DD965CB2C5B9B9400958E82 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD965CA2C5B9B9400958E82 /* Transaction.swift */; };
 		1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */; };
 		1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */; };
 		1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */; };
@@ -61,6 +63,8 @@
 		1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModelEntity.swift; sourceTree = "<group>"; };
 		1DD28AF72C557D4800870FF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1DD28AF92C557D5100870FF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		1DD965CA2C5B9B9400958E82 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 		1DD28AEB2C55778500870FF7 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				1DD965C62C5B939200958E82 /* CollectionViewCells */,
+				1DD965C72C5B939E00958E82 /* TableViewCells */,
 				1DD28AF42C5578C500870FF7 /* Custom */,
 			);
 			path = UIComponents;
@@ -250,6 +256,21 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		1DD965C62C5B939200958E82 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		1DD965C72C5B939E00958E82 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		1DE9F1E42C56C533000EEE07 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +306,7 @@
 				1DF115362C58120D004C5031 /* Bank.swift */,
 				1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */,
 				1DF115382C581218004C5031 /* Account.swift */,
+				1DD965CA2C5B9B9400958E82 /* Transaction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -379,6 +401,7 @@
 				1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */,
 				1DE9F1F12C56D822000EEE07 /* RoundedButton.swift in Sources */,
 				1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */,
+				1DD965C92C5B93DC00958E82 /* PosterCollectionViewCell.swift in Sources */,
 				1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */,
 				1D32E0802C59717900701AD4 /* MyWalletScreenViewController.swift in Sources */,
 				1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */,
@@ -387,6 +410,7 @@
 				1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */,
 				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
+				1DD965CB2C5B9B9400958E82 /* Transaction.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
 				1DF115372C58120D004C5031 /* Bank.swift in Sources */,
 				1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */,

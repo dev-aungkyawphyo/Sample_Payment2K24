@@ -21,3 +21,10 @@ enum ValidationErrors: String {
     case usernameError = "Username is incorrect."
     case passwordError = "Your password is incorrect."
 }
+
+enum Opr: String {
+    case cashIn = "CI"
+    case cashOut = "CO"
+    case transfer = "TR"
+    case unknown = "Un"
+}
