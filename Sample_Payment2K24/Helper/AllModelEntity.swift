@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+struct ProductPoster {
+    var poster: UIImage
+}
