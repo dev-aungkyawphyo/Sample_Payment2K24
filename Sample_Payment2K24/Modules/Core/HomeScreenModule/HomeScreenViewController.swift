@@ -140,7 +140,7 @@ extension HomeScreenViewController: UICollectionViewDelegateFlowLayout {
 
 // MARK: UITableViewDelegate
 extension HomeScreenViewController: UITableViewDelegate {
-    
+    // TODO: Check history and news
 }
  
 // MARK: UITableViewDataSource
