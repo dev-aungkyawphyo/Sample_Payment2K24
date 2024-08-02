@@ -17,6 +17,7 @@ class HomeScreenViewController: UIViewController {
     @IBOutlet weak var historyTable: UITableView!
     @IBOutlet weak var visibleButton: UIButton!
     
+    // MARK: Properties
     var account: Account!
     var timer: Timer?
     var currentIndex = 0
@@ -153,5 +154,25 @@ extension HomeScreenViewController: UITableViewDataSource {
         return UITableViewCell()
     }
     
+}
+
+// MARK: - User Interaction - Actions & Targets
+extension HomeScreenViewController {
+    
+    @IBAction func didTappedTopUpBtn(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func didTappedTransferBtn(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func didTappedCashInBtn(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func didTappedCashOutBtn(_ sender: UIButton) {
+        
+    }
     
 }
