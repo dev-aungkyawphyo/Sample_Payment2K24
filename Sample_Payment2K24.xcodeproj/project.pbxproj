@@ -12,6 +12,15 @@
 		1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */; };
 		1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */; };
 		1D32E08D2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */; };
+		1D4CE7872C5D618C006DB61D /* TopUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */; };
+		1D4CE7892C5D619E006DB61D /* TransferScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */; };
+		1D4CE78B2C5D61A8006DB61D /* CashInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */; };
+		1D4CE78D2C5D61B0006DB61D /* CashOutScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */; };
+		1D4CE78F2C5D61BB006DB61D /* TopUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */; };
+		1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */; };
+		1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */; };
+		1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */; };
+		1D4CE7992C5D6FDF006DB61D /* RecentNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */; };
 		1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */; };
 		1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */; };
 		1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */; };
@@ -51,6 +60,15 @@
 		1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenViewController.swift; sourceTree = "<group>"; };
 		1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
 		1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBarScreenViewController.swift; sourceTree = "<group>"; };
+		1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpScreenViewController.swift; sourceTree = "<group>"; };
+		1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferScreenViewController.swift; sourceTree = "<group>"; };
+		1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashInScreenViewController.swift; sourceTree = "<group>"; };
+		1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashOutScreenViewController.swift; sourceTree = "<group>"; };
+		1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopUpScreen.storyboard; sourceTree = "<group>"; };
+		1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransferScreen.storyboard; sourceTree = "<group>"; };
+		1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashInScreen.storyboard; sourceTree = "<group>"; };
+		1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashOutScreen.storyboard; sourceTree = "<group>"; };
+		1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNumberTableViewCell.swift; sourceTree = "<group>"; };
 		1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +158,67 @@
 			path = DesignableTabBarScreenModule;
 			sourceTree = "<group>";
 		};
+		1D4CE7802C5D6115006DB61D /* TopUpScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */,
+				1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */,
+			);
+			path = TopUpScreenModule;
+			sourceTree = "<group>";
+		};
+		1D4CE7812C5D612A006DB61D /* TransferScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */,
+				1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */,
+			);
+			path = TransferScreenModule;
+			sourceTree = "<group>";
+		};
+		1D4CE7822C5D6138006DB61D /* CashInScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */,
+				1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */,
+			);
+			path = CashInScreenModule;
+			sourceTree = "<group>";
+		};
+		1D4CE7832C5D6143006DB61D /* CashOutScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */,
+				1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */,
+			);
+			path = CashOutScreenModule;
+			sourceTree = "<group>";
+		};
+		1D4CE7842C5D6153006DB61D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE7802C5D6115006DB61D /* TopUpScreenModule */,
+				1D4CE7812C5D612A006DB61D /* TransferScreenModule */,
+				1D4CE7822C5D6138006DB61D /* CashInScreenModule */,
+				1D4CE7832C5D6143006DB61D /* CashOutScreenModule */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		1D4CE7852C5D6165006DB61D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1DD28AF32C5578AB00870FF7 /* LoginScreenModule */,
+				1D32E08B2C5975CE00701AD4 /* DesignableTabBarScreenModule */,
+				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
+				1D32E0872C5974AC00701AD4 /* MyWalletScreenModule */,
+				1D32E0882C5974C000701AD4 /* QRScannerScreenModule */,
+				1D32E0892C5974D100701AD4 /* RewardScreenModule */,
+				1D32E08A2C5974E100701AD4 /* ProfileScreenModule */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		1DD28AC82C5575AB00870FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -224,13 +303,8 @@
 		1DD28AEE2C5577E500870FF7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1DD28AF32C5578AB00870FF7 /* LoginScreenModule */,
-				1D32E08B2C5975CE00701AD4 /* DesignableTabBarScreenModule */,
-				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
-				1D32E0872C5974AC00701AD4 /* MyWalletScreenModule */,
-				1D32E0882C5974C000701AD4 /* QRScannerScreenModule */,
-				1D32E0892C5974D100701AD4 /* RewardScreenModule */,
-				1D32E08A2C5974E100701AD4 /* ProfileScreenModule */,
+				1D4CE7852C5D6165006DB61D /* Core */,
+				1D4CE7842C5D6153006DB61D /* General */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -267,6 +341,7 @@
 		1DD965C72C5B939E00958E82 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -377,10 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD28ADE2C5575AE00870FF7 /* Assets.xcassets in Resources */,
+				1D4CE78F2C5D61BB006DB61D /* TopUpScreen.storyboard in Resources */,
 				1DD28AF02C55784100870FF7 /* Colors.xcassets in Resources */,
 				1DD28AE12C5575AE00870FF7 /* Base in Resources */,
 				1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */,
+				1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */,
+				1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */,
 				1DF1153C2C582B2C004C5031 /* Payment.db in Resources */,
+				1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */,
 				1DD28ADC2C5575AB00870FF7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,12 +485,17 @@
 				1D32E0802C59717900701AD4 /* MyWalletScreenViewController.swift in Sources */,
 				1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
+				1D4CE78D2C5D61B0006DB61D /* CashOutScreenViewController.swift in Sources */,
 				1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */,
 				1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */,
 				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
+				1D4CE7872C5D618C006DB61D /* TopUpScreenViewController.swift in Sources */,
 				1DD965CB2C5B9B9400958E82 /* Transaction.swift in Sources */,
+				1D4CE78B2C5D61A8006DB61D /* CashInScreenViewController.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
+				1D4CE7892C5D619E006DB61D /* TransferScreenViewController.swift in Sources */,
+				1D4CE7992C5D6FDF006DB61D /* RecentNumberTableViewCell.swift in Sources */,
 				1DF115372C58120D004C5031 /* Bank.swift in Sources */,
 				1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
