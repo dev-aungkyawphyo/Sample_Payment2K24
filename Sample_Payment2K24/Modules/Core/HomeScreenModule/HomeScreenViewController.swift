@@ -156,11 +156,22 @@ extension HomeScreenViewController: UITableViewDataSource {
     
 }
 
+extension HomeScreenViewController: HomeScreenProtocols {
+    
+    func topupRouter() {
+        let vc = TopUpScreenViewController.instantiate(name: .TopUpScreenViewController)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+}
+
 // MARK: - User Interaction - Actions & Targets
 extension HomeScreenViewController {
     
     @IBAction func didTappedTopUpBtn(_ sender: UIButton) {
-        
+        topupRouter()
     }
     
     @IBAction func didTappedTransferBtn(_ sender: UIButton) {

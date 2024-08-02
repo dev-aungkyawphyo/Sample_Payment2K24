@@ -11,3 +11,8 @@ import UIKit
 struct ProductPoster {
     var poster: UIImage
 }
+
+struct RecentNumber {
+    var icon: UIImage
+    var description: String
+}

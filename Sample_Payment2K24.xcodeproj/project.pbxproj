@@ -20,7 +20,9 @@
 		1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */; };
 		1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */; };
 		1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */; };
-		1D4CE7992C5D6FDF006DB61D /* RecentNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */; };
+		1D4CE79B2C5D762D006DB61D /* HomeScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */; };
+		1D4CE7A02C5D8A2A006DB61D /* RecentNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */; };
+		1D4CE7A12C5D8A2A006DB61D /* RecentNumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */; };
 		1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */; };
 		1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */; };
 		1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */; };
@@ -68,7 +70,9 @@
 		1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransferScreen.storyboard; sourceTree = "<group>"; };
 		1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashInScreen.storyboard; sourceTree = "<group>"; };
 		1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashOutScreen.storyboard; sourceTree = "<group>"; };
-		1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNumberTableViewCell.swift; sourceTree = "<group>"; };
+		1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenProtocols.swift; sourceTree = "<group>"; };
+		1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNumberTableViewCell.swift; sourceTree = "<group>"; };
+		1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentNumberTableViewCell.xib; sourceTree = "<group>"; };
 		1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,8 +270,9 @@
 		1DD28AE92C55776000870FF7 /* HomeScreenModule */ = {
 			isa = PBXGroup;
 			children = (
-				1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */,
 				1DD28ADA2C5575AB00870FF7 /* Main.storyboard */,
+				1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */,
+				1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */,
 			);
 			path = HomeScreenModule;
 			sourceTree = "<group>";
@@ -341,7 +346,8 @@
 		1DD965C72C5B939E00958E82 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				1D4CE7982C5D6FDF006DB61D /* RecentNumberTableViewCell.swift */,
+				1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */,
+				1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -459,6 +465,7 @@
 				1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */,
 				1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */,
 				1DF1153C2C582B2C004C5031 /* Payment.db in Resources */,
+				1D4CE7A12C5D8A2A006DB61D /* RecentNumberTableViewCell.xib in Resources */,
 				1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */,
 				1DD28ADC2C5575AB00870FF7 /* Base in Resources */,
 			);
@@ -473,10 +480,12 @@
 			files = (
 				1DE9F1FD2C56DD58000EEE07 /* SQLiteBase.swift in Sources */,
 				1DE9F2002C56DD58000EEE07 /* SQLiteDB.swift in Sources */,
+				1D4CE79B2C5D762D006DB61D /* HomeScreenProtocols.swift in Sources */,
 				1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */,
 				1DE9F1F52C56DA3E000EEE07 /* LoginScreenProtocols.swift in Sources */,
 				1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */,
 				1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */,
+				1D4CE7A02C5D8A2A006DB61D /* RecentNumberTableViewCell.swift in Sources */,
 				1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */,
 				1DE9F1F12C56D822000EEE07 /* RoundedButton.swift in Sources */,
 				1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */,
@@ -495,7 +504,6 @@
 				1D4CE78B2C5D61A8006DB61D /* CashInScreenViewController.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
 				1D4CE7892C5D619E006DB61D /* TransferScreenViewController.swift in Sources */,
-				1D4CE7992C5D6FDF006DB61D /* RecentNumberTableViewCell.swift in Sources */,
 				1DF115372C58120D004C5031 /* Bank.swift in Sources */,
 				1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
