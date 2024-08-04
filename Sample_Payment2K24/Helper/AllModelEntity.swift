@@ -16,3 +16,8 @@ struct RecentNumber {
     var icon: UIImage
     var description: String
 }
+
+struct Transfer {
+    var recent: RecentNumber
+    var title: String
+}

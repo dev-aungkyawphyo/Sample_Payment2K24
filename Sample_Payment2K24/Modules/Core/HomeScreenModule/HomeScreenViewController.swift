@@ -165,6 +165,13 @@ extension HomeScreenViewController: HomeScreenProtocols {
         self.present(vc, animated: true)
     }
     
+    func transferRouter() {
+        let vc = TransferScreenViewController.instantiate(name: .TransferScreenViewController)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
 }
 
 // MARK: - User Interaction - Actions & Targets
@@ -175,7 +182,7 @@ extension HomeScreenViewController {
     }
     
     @IBAction func didTappedTransferBtn(_ sender: UIButton) {
-        
+        transferRouter()
     }
     
     @IBAction func didTappedCashInBtn(_ sender: UIButton) {

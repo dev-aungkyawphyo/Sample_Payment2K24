@@ -58,7 +58,7 @@ class TopUpScreenViewController: UIViewController {
 extension TopUpScreenViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        mobileNumberTextField.resignFirstResponder()
+        textField.resignFirstResponder()
         return true
     }
     

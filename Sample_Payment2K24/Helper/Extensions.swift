@@ -114,6 +114,8 @@ extension UIViewController {
     enum BaseRouter: String {
         case DesignableTabBarScreenViewController = "Main"
         case TopUpScreenViewController = "TopUpScreen"
+        case TransferScreenViewController = "TransferScreen"
+        case TransBaseRouter = "TransferMobileNumberScreen"
     }
     
 }
