@@ -45,7 +45,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="PrimaryViewColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="S6J-hK-UQf" secondAttribute="trailing" constant="20" id="IV0-hh-p7L"/>
                             <constraint firstItem="rmH-eT-bNn" firstAttribute="centerY" secondItem="JDD-Bs-7Sm" secondAttribute="centerY" id="LGH-75-fle"/>
@@ -63,7 +63,6 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <color key="backgroundColor" name="PrimaryViewColor"/>
             <connections>
                 <outlet property="descriptionLabel" destination="37U-T7-3Et" id="VMe-zP-QxC"/>
                 <outlet property="iconImageView" destination="rmH-eT-bNn" id="6rM-aE-0Ps"/>

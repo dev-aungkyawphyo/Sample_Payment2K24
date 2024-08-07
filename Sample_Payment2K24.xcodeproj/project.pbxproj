@@ -7,26 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D2BAA1C2C5EABF300EE38E8 /* TransferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BAA1A2C5EABF300EE38E8 /* TransferTableViewCell.swift */; };
-		1D2BAA1D2C5EABF300EE38E8 /* TransferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2BAA1B2C5EABF300EE38E8 /* TransferTableViewCell.xib */; };
-		1D2BAA202C5EC74400EE38E8 /* TransferMobileNumberScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BAA1F2C5EC74400EE38E8 /* TransferMobileNumberScreenViewController.swift */; };
-		1D2BAA222C5EC79100EE38E8 /* TransferMobileNumberScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2BAA212C5EC79100EE38E8 /* TransferMobileNumberScreen.storyboard */; };
-		1D32E0802C59717900701AD4 /* MyWalletScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E07F2C59717900701AD4 /* MyWalletScreenViewController.swift */; };
-		1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0812C5971BC00701AD4 /* QRScanScreenViewController.swift */; };
-		1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */; };
-		1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */; };
-		1D32E08D2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */; };
-		1D4CE7872C5D618C006DB61D /* TopUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */; };
-		1D4CE7892C5D619E006DB61D /* TransferScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */; };
-		1D4CE78B2C5D61A8006DB61D /* CashInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */; };
-		1D4CE78D2C5D61B0006DB61D /* CashOutScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */; };
-		1D4CE78F2C5D61BB006DB61D /* TopUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */; };
-		1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */; };
-		1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */; };
-		1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */; };
-		1D4CE79B2C5D762D006DB61D /* HomeScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */; };
-		1D4CE7A02C5D8A2A006DB61D /* RecentNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */; };
-		1D4CE7A12C5D8A2A006DB61D /* RecentNumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */; };
 		1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */; };
 		1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */; };
 		1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */; };
@@ -37,8 +17,6 @@
 		1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */; };
 		1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF72C557D4800870FF7 /* Constants.swift */; };
 		1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28AF92C557D5100870FF7 /* Extensions.swift */; };
-		1DD965C92C5B93DC00958E82 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */; };
-		1DD965CB2C5B9B9400958E82 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD965CA2C5B9B9400958E82 /* Transaction.swift */; };
 		1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */; };
 		1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */; };
 		1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */; };
@@ -55,32 +33,9 @@
 		1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */; };
 		1DF115372C58120D004C5031 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115362C58120D004C5031 /* Bank.swift */; };
 		1DF115392C581218004C5031 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF115382C581218004C5031 /* Account.swift */; };
-		1DF1153C2C582B2C004C5031 /* Payment.db in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1153B2C582B2C004C5031 /* Payment.db */; };
-		1DF1153F2C5834C9004C5031 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF1153E2C5834C9004C5031 /* GoogleSignIn */; };
-		1DF115412C5834C9004C5031 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF115402C5834C9004C5031 /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D2BAA1A2C5EABF300EE38E8 /* TransferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTableViewCell.swift; sourceTree = "<group>"; };
-		1D2BAA1B2C5EABF300EE38E8 /* TransferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferTableViewCell.xib; sourceTree = "<group>"; };
-		1D2BAA1F2C5EC74400EE38E8 /* TransferMobileNumberScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMobileNumberScreenViewController.swift; sourceTree = "<group>"; };
-		1D2BAA212C5EC79100EE38E8 /* TransferMobileNumberScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransferMobileNumberScreen.storyboard; sourceTree = "<group>"; };
-		1D32E07F2C59717900701AD4 /* MyWalletScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletScreenViewController.swift; sourceTree = "<group>"; };
-		1D32E0812C5971BC00701AD4 /* QRScanScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanScreenViewController.swift; sourceTree = "<group>"; };
-		1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenViewController.swift; sourceTree = "<group>"; };
-		1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
-		1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBarScreenViewController.swift; sourceTree = "<group>"; };
-		1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpScreenViewController.swift; sourceTree = "<group>"; };
-		1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferScreenViewController.swift; sourceTree = "<group>"; };
-		1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashInScreenViewController.swift; sourceTree = "<group>"; };
-		1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashOutScreenViewController.swift; sourceTree = "<group>"; };
-		1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopUpScreen.storyboard; sourceTree = "<group>"; };
-		1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransferScreen.storyboard; sourceTree = "<group>"; };
-		1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashInScreen.storyboard; sourceTree = "<group>"; };
-		1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashOutScreen.storyboard; sourceTree = "<group>"; };
-		1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenProtocols.swift; sourceTree = "<group>"; };
-		1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNumberTableViewCell.swift; sourceTree = "<group>"; };
-		1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentNumberTableViewCell.xib; sourceTree = "<group>"; };
 		1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD28AD42C5575AB00870FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD28AD62C5575AB00870FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,8 +48,6 @@
 		1DD28AF52C557D4000870FF7 /* AllModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModelEntity.swift; sourceTree = "<group>"; };
 		1DD28AF72C557D4800870FF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1DD28AF92C557D5100870FF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
-		1DD965CA2C5B9B9400958E82 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1DE9F1EA2C56CBA3000EEE07 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		1DE9F1EC2C56CBB1000EEE07 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		1DE9F1EE2C56D7BB000EEE07 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -109,10 +62,10 @@
 		1DE9F1FC2C56DD58000EEE07 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
 		1DE9F2022C56DF0D000EEE07 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1DE9F2032C56DF0D000EEE07 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamplePayment.sqlite; sourceTree = "<group>"; };
 		1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		1DF115362C58120D004C5031 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		1DF115382C581218004C5031 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		1DF1153B2C582B2C004C5031 /* Payment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Payment.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,143 +75,12 @@
 			files = (
 				1DE9F2072C56DF45000EEE07 /* libsqlite3.0.tbd in Frameworks */,
 				1DE9F2082C56DF45000EEE07 /* libsqlite3.tbd in Frameworks */,
-				1DF1153F2C5834C9004C5031 /* GoogleSignIn in Frameworks */,
-				1DF115412C5834C9004C5031 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D2BAA182C5EABC000EE38E8 /* RecentNumberTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE79E2C5D8A2A006DB61D /* RecentNumberTableViewCell.swift */,
-				1D4CE79F2C5D8A2A006DB61D /* RecentNumberTableViewCell.xib */,
-			);
-			path = RecentNumberTableViewCell;
-			sourceTree = "<group>";
-		};
-		1D2BAA192C5EABD100EE38E8 /* TransferTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				1D2BAA1A2C5EABF300EE38E8 /* TransferTableViewCell.swift */,
-				1D2BAA1B2C5EABF300EE38E8 /* TransferTableViewCell.xib */,
-			);
-			path = TransferTableViewCell;
-			sourceTree = "<group>";
-		};
-		1D2BAA1E2C5EC71000EE38E8 /* TransferMobileNumberScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D2BAA1F2C5EC74400EE38E8 /* TransferMobileNumberScreenViewController.swift */,
-				1D2BAA212C5EC79100EE38E8 /* TransferMobileNumberScreen.storyboard */,
-			);
-			path = TransferMobileNumberScreenModule;
-			sourceTree = "<group>";
-		};
-		1D32E0872C5974AC00701AD4 /* MyWalletScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D32E07F2C59717900701AD4 /* MyWalletScreenViewController.swift */,
-			);
-			path = MyWalletScreenModule;
-			sourceTree = "<group>";
-		};
-		1D32E0882C5974C000701AD4 /* QRScannerScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D32E0812C5971BC00701AD4 /* QRScanScreenViewController.swift */,
-			);
-			path = QRScannerScreenModule;
-			sourceTree = "<group>";
-		};
-		1D32E0892C5974D100701AD4 /* RewardScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D32E0832C5972ED00701AD4 /* RewardScreenViewController.swift */,
-			);
-			path = RewardScreenModule;
-			sourceTree = "<group>";
-		};
-		1D32E08A2C5974E100701AD4 /* ProfileScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D32E0852C59731F00701AD4 /* ProfileScreenViewController.swift */,
-			);
-			path = ProfileScreenModule;
-			sourceTree = "<group>";
-		};
-		1D32E08B2C5975CE00701AD4 /* DesignableTabBarScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D32E08C2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift */,
-			);
-			path = DesignableTabBarScreenModule;
-			sourceTree = "<group>";
-		};
-		1D4CE7802C5D6115006DB61D /* TopUpScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE7862C5D618C006DB61D /* TopUpScreenViewController.swift */,
-				1D4CE78E2C5D61BB006DB61D /* TopUpScreen.storyboard */,
-			);
-			path = TopUpScreenModule;
-			sourceTree = "<group>";
-		};
-		1D4CE7812C5D612A006DB61D /* TransferScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE7882C5D619E006DB61D /* TransferScreenViewController.swift */,
-				1D4CE7902C5D61C6006DB61D /* TransferScreen.storyboard */,
-				1D2BAA1E2C5EC71000EE38E8 /* TransferMobileNumberScreenModule */,
-			);
-			path = TransferScreenModule;
-			sourceTree = "<group>";
-		};
-		1D4CE7822C5D6138006DB61D /* CashInScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE78A2C5D61A8006DB61D /* CashInScreenViewController.swift */,
-				1D4CE7922C5D61CF006DB61D /* CashInScreen.storyboard */,
-			);
-			path = CashInScreenModule;
-			sourceTree = "<group>";
-		};
-		1D4CE7832C5D6143006DB61D /* CashOutScreenModule */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE78C2C5D61B0006DB61D /* CashOutScreenViewController.swift */,
-				1D4CE7962C5D61E7006DB61D /* CashOutScreen.storyboard */,
-			);
-			path = CashOutScreenModule;
-			sourceTree = "<group>";
-		};
-		1D4CE7842C5D6153006DB61D /* General */ = {
-			isa = PBXGroup;
-			children = (
-				1D4CE7802C5D6115006DB61D /* TopUpScreenModule */,
-				1D4CE7812C5D612A006DB61D /* TransferScreenModule */,
-				1D4CE7822C5D6138006DB61D /* CashInScreenModule */,
-				1D4CE7832C5D6143006DB61D /* CashOutScreenModule */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		1D4CE7852C5D6165006DB61D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1DD28AF32C5578AB00870FF7 /* LoginScreenModule */,
-				1D32E08B2C5975CE00701AD4 /* DesignableTabBarScreenModule */,
-				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
-				1D32E0872C5974AC00701AD4 /* MyWalletScreenModule */,
-				1D32E0882C5974C000701AD4 /* QRScannerScreenModule */,
-				1D32E0892C5974D100701AD4 /* RewardScreenModule */,
-				1D32E08A2C5974E100701AD4 /* ProfileScreenModule */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		1DD28AC82C5575AB00870FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -306,9 +128,8 @@
 		1DD28AE92C55776000870FF7 /* HomeScreenModule */ = {
 			isa = PBXGroup;
 			children = (
-				1DD28ADA2C5575AB00870FF7 /* Main.storyboard */,
 				1DD28AD82C5575AB00870FF7 /* HomeScreenViewController.swift */,
-				1D4CE79A2C5D762D006DB61D /* HomeScreenProtocols.swift */,
+				1DD28ADA2C5575AB00870FF7 /* Main.storyboard */,
 			);
 			path = HomeScreenModule;
 			sourceTree = "<group>";
@@ -316,8 +137,6 @@
 		1DD28AEB2C55778500870FF7 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				1DD965C62C5B939200958E82 /* CollectionViewCells */,
-				1DD965C72C5B939E00958E82 /* TableViewCells */,
 				1DD28AF42C5578C500870FF7 /* Custom */,
 			);
 			path = UIComponents;
@@ -344,8 +163,8 @@
 		1DD28AEE2C5577E500870FF7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1D4CE7852C5D6165006DB61D /* Core */,
-				1D4CE7842C5D6153006DB61D /* General */,
+				1DD28AF32C5578AB00870FF7 /* LoginScreenModule */,
+				1DD28AE92C55776000870FF7 /* HomeScreenModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -371,27 +190,10 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		1DD965C62C5B939200958E82 /* CollectionViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				1DD965C82C5B93DC00958E82 /* PosterCollectionViewCell.swift */,
-			);
-			path = CollectionViewCells;
-			sourceTree = "<group>";
-		};
-		1DD965C72C5B939E00958E82 /* TableViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				1D2BAA182C5EABC000EE38E8 /* RecentNumberTableViewCell */,
-				1D2BAA192C5EABD100EE38E8 /* TransferTableViewCell */,
-			);
-			path = TableViewCells;
-			sourceTree = "<group>";
-		};
 		1DE9F1E42C56C533000EEE07 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1DF1153B2C582B2C004C5031 /* Payment.db */,
+				1DE9F2092C56E75C000EEE07 /* SamplePayment.sqlite */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -423,7 +225,6 @@
 				1DF115362C58120D004C5031 /* Bank.swift */,
 				1DE9F20F2C56EBB8000EEE07 /* DBManager.swift */,
 				1DF115382C581218004C5031 /* Account.swift */,
-				1DD965CA2C5B9B9400958E82 /* Transaction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -444,10 +245,6 @@
 			dependencies = (
 			);
 			name = Sample_Payment2K24;
-			packageProductDependencies = (
-				1DF1153E2C5834C9004C5031 /* GoogleSignIn */,
-				1DF115402C5834C9004C5031 /* GoogleSignInSwift */,
-			);
 			productName = Sample_Payment2K24;
 			productReference = 1DD28AD12C5575AB00870FF7 /* Sample_Payment2K24.app */;
 			productType = "com.apple.product-type.application";
@@ -476,9 +273,6 @@
 				Base,
 			);
 			mainGroup = 1DD28AC82C5575AB00870FF7;
-			packageReferences = (
-				1DF1153D2C5834C9004C5031 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-			);
 			productRefGroup = 1DD28AD22C5575AB00870FF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -493,18 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D2BAA222C5EC79100EE38E8 /* TransferMobileNumberScreen.storyboard in Resources */,
 				1DD28ADE2C5575AE00870FF7 /* Assets.xcassets in Resources */,
-				1D4CE78F2C5D61BB006DB61D /* TopUpScreen.storyboard in Resources */,
 				1DD28AF02C55784100870FF7 /* Colors.xcassets in Resources */,
 				1DD28AE12C5575AE00870FF7 /* Base in Resources */,
 				1DE9F1ED2C56CBB1000EEE07 /* LoginScreen.storyboard in Resources */,
-				1D4CE7912C5D61C6006DB61D /* TransferScreen.storyboard in Resources */,
-				1D4CE7972C5D61E7006DB61D /* CashOutScreen.storyboard in Resources */,
-				1DF1153C2C582B2C004C5031 /* Payment.db in Resources */,
-				1D4CE7A12C5D8A2A006DB61D /* RecentNumberTableViewCell.xib in Resources */,
-				1D4CE7932C5D61CF006DB61D /* CashInScreen.storyboard in Resources */,
-				1D2BAA1D2C5EABF300EE38E8 /* TransferTableViewCell.xib in Resources */,
 				1DD28ADC2C5575AB00870FF7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,37 +304,22 @@
 			files = (
 				1DE9F1FD2C56DD58000EEE07 /* SQLiteBase.swift in Sources */,
 				1DE9F2002C56DD58000EEE07 /* SQLiteDB.swift in Sources */,
-				1D4CE79B2C5D762D006DB61D /* HomeScreenProtocols.swift in Sources */,
 				1DD28AF82C557D4800870FF7 /* Constants.swift in Sources */,
 				1DE9F1F52C56DA3E000EEE07 /* LoginScreenProtocols.swift in Sources */,
 				1DE9F1EB2C56CBA3000EEE07 /* LoginScreenViewController.swift in Sources */,
 				1DD28AFA2C557D5100870FF7 /* Extensions.swift in Sources */,
-				1D4CE7A02C5D8A2A006DB61D /* RecentNumberTableViewCell.swift in Sources */,
 				1DD28AD92C5575AB00870FF7 /* HomeScreenViewController.swift in Sources */,
 				1DE9F1F12C56D822000EEE07 /* RoundedButton.swift in Sources */,
 				1DE9F1FE2C56DD58000EEE07 /* CloudDB.swift in Sources */,
-				1DD965C92C5B93DC00958E82 /* PosterCollectionViewCell.swift in Sources */,
 				1DE9F1EF2C56D7BB000EEE07 /* CustomButton.swift in Sources */,
-				1D32E0802C59717900701AD4 /* MyWalletScreenViewController.swift in Sources */,
-				1D2BAA202C5EC74400EE38E8 /* TransferMobileNumberScreenViewController.swift in Sources */,
-				1D32E0862C59731F00701AD4 /* ProfileScreenViewController.swift in Sources */,
 				1DD28AD52C5575AB00870FF7 /* AppDelegate.swift in Sources */,
-				1D4CE78D2C5D61B0006DB61D /* CashOutScreenViewController.swift in Sources */,
 				1DE9F2102C56EBB8000EEE07 /* DBManager.swift in Sources */,
-				1D32E0842C5972ED00701AD4 /* RewardScreenViewController.swift in Sources */,
 				1DE9F1F72C56DA55000EEE07 /* LoginScreenEntity.swift in Sources */,
 				1DD28AF62C557D4000870FF7 /* AllModelEntity.swift in Sources */,
-				1D4CE7872C5D618C006DB61D /* TopUpScreenViewController.swift in Sources */,
-				1DD965CB2C5B9B9400958E82 /* Transaction.swift in Sources */,
-				1D4CE78B2C5D61A8006DB61D /* CashInScreenViewController.swift in Sources */,
 				1DE9F1F32C56D847000EEE07 /* DesignableView.swift in Sources */,
-				1D4CE7892C5D619E006DB61D /* TransferScreenViewController.swift in Sources */,
 				1DF115372C58120D004C5031 /* Bank.swift in Sources */,
-				1D32E0822C5971BC00701AD4 /* QRScanScreenViewController.swift in Sources */,
 				1DD28AD72C5575AB00870FF7 /* SceneDelegate.swift in Sources */,
-				1D2BAA1C2C5EABF300EE38E8 /* TransferTableViewCell.swift in Sources */,
 				1DF115392C581218004C5031 /* Account.swift in Sources */,
-				1D32E08D2C59762B00701AD4 /* DesignableTabBarScreenViewController.swift in Sources */,
 				1DE9F1FF2C56DD58000EEE07 /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,30 +545,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1DF1153D2C5834C9004C5031 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1DF1153E2C5834C9004C5031 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1DF1153D2C5834C9004C5031 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		1DF115402C5834C9004C5031 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1DF1153D2C5834C9004C5031 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DD28AC92C5575AB00870FF7 /* Project object */;
 }

@@ -10,4 +10,6 @@ import Foundation
 protocol HomeScreenProtocols: AnyObject {
     func topupRouter()
     func transferRouter()
+    func cashInRouter()
+    func cashOutRouter()
 }

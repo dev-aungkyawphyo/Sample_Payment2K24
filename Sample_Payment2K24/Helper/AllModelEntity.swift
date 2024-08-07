@@ -21,3 +21,8 @@ struct Transfer {
     var recent: RecentNumber
     var title: String
 }
+
+struct HistoryRecent {
+    var transfer: Transfer
+    var amount: Double
+}

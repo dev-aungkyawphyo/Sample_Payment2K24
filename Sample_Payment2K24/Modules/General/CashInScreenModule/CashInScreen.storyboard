@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,16 +16,60 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2y-gR-zJC">
+                                <rect key="frame" x="0.0" y="59" width="118" height="41"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="chevron.left" catalog="system" imagePlacement="leading" title="Cash In" imagePadding="5">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="22"/>
+                                    <color key="baseForegroundColor" name="PrimaryTextColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bru-hP-bac"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ways to cash in to Sample Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-3t-6SH">
+                                <rect key="frame" x="16" y="120" width="250" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" name="PrimaryTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="insetGrouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HAF-qh-iA0">
+                                <rect key="frame" x="0.0" y="142" width="393" height="600"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="cU1-nY-SWR"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HAF-qh-iA0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="XoU-iW-zgg"/>
+                            <constraint firstItem="HAF-qh-iA0" firstAttribute="top" secondItem="Gki-3t-6SH" secondAttribute="bottom" id="Ygk-V1-Ffd"/>
+                            <constraint firstItem="G2y-gR-zJC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="fde-hd-w7x"/>
+                            <constraint firstItem="Gki-3t-6SH" firstAttribute="top" secondItem="G2y-gR-zJC" secondAttribute="bottom" constant="20" id="h53-em-BXb"/>
+                            <constraint firstItem="Gki-3t-6SH" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="jBI-mW-r2h"/>
+                            <constraint firstItem="HAF-qh-iA0" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="mep-on-2Kn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Gki-3t-6SH" secondAttribute="trailing" constant="127" id="tLd-41-mlQ"/>
+                            <constraint firstItem="G2y-gR-zJC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="vYl-3e-Lpa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="G2y-gR-zJC" secondAttribute="trailing" constant="275" id="ywA-aE-3VF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="HAF-qh-iA0" id="AqO-Lh-GFe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-2"/>
+            <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
+        <namedColor name="PrimaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

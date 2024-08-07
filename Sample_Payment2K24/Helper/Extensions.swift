@@ -116,6 +116,9 @@ extension UIViewController {
         case TopUpScreenViewController = "TopUpScreen"
         case TransferScreenViewController = "TransferScreen"
         case TransBaseRouter = "TransferMobileNumberScreen"
+        case CashInScreenViewController = "CashInScreen"
+        case AgentScreenBaseRouter = "AgentScreen"
+        case CashOutScreenViewcontroller = "CashOutScreen"
     }
     
 }
