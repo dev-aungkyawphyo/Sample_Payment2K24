@@ -11,3 +11,18 @@ import UIKit
 struct ProductPoster {
     var poster: UIImage
 }
+
+struct RecentNumber {
+    var icon: UIImage
+    var description: String
+}
+
+struct Transfer {
+    var recent: RecentNumber
+    var title: String
+}
+
+struct HistoryRecent {
+    var transfer: Transfer
+    var amount: Double
+}

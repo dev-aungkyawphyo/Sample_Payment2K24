@@ -44,6 +44,31 @@ extension UITextField {
         sender.isSelected = !sender.isSelected
     }
     
+    func textFieldIcon(image: UIImage) {
+        let imageView = UIImageView(frame: CGRect(x: 10, y: 0, width: 20, height: 25))
+        imageView.image = image
+        let iconContainerView = UIView(frame: CGRect(x: 0, y: 0, width: 30, height: 25))
+        iconContainerView.addSubview(imageView)
+        leftView = iconContainerView
+        leftViewMode = .always
+        self.tintColor = .appColor(.primaryTextcolor)
+    }
+    
+    func addCancelButton() {
+        let button = UIButton(frame: CGRect(x: 0, y: 10, width: 20, height: 25))
+        button.setImage(UIImage(systemName: "xmark"), for: .normal)
+        let container = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 45))
+        container.addSubview(button)
+        rightView = container
+        rightViewMode = .always
+        button.addTarget(self, action: #selector(cancelButtonAction(_:)), for: .touchCancel)
+    }
+    
+    @objc private func cancelButtonAction(_ sender: UIButton) {
+        self.isHidden = sender.isSelected
+        sender.isSelected = !sender.isSelected
+    }
+    
 }
 
 extension UIColor {
@@ -88,6 +113,12 @@ extension UIViewController {
     
     enum BaseRouter: String {
         case DesignableTabBarScreenViewController = "Main"
+        case TopUpScreenViewController = "TopUpScreen"
+        case TransferScreenViewController = "TransferScreen"
+        case TransBaseRouter = "TransferMobileNumberScreen"
+        case CashInScreenViewController = "CashInScreen"
+        case AgentScreenBaseRouter = "AgentScreen"
+        case CashOutScreenViewcontroller = "CashOutScreen"
     }
     
 }

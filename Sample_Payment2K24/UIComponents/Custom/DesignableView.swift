@@ -23,7 +23,7 @@ class DesignableView: UIView {
     private func initialSetup() {
         layer.shadowColor = UIColor(named: "PrimaryTextColor")?.cgColor
         layer.shadowOffset = .zero
-        layer.shadowOpacity = 0.1
+        layer.shadowOpacity = 0.2
         layer.cornerRadius = 20
     }
     

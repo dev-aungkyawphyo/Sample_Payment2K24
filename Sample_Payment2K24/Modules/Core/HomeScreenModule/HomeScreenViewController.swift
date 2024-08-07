@@ -31,6 +31,10 @@ class HomeScreenViewController: UIViewController {
         .init(poster: UIImage(named: "poster6")!),
         .init(poster: UIImage(named: "poster7")!)
     ]
+    
+    private var recent: [HistoryRecent] = [
+        .init(transfer: Transfer(recent: RecentNumber(icon: UIImage(named: "money-transfer-2")!, description: "2 August 2024, 10:42 AM"), title: "Registration Bonus"), amount: 500),
+    ]
 
     // MARK: Lifecycles
     override func viewDidLoad() {
@@ -43,6 +47,7 @@ class HomeScreenViewController: UIViewController {
         configureUI()
         collectionViewSetup()
         tableViewSetup()
+        registerSetup()
         pageControl.numberOfPages = productPoster.count
         startTimer()
         addVisibleButton()
@@ -61,6 +66,11 @@ class HomeScreenViewController: UIViewController {
     private func tableViewSetup() {
         historyTable.delegate = self
         historyTable.dataSource = self
+    }
+    
+    private func registerSetup() {
+        historyTable.register(UINib(nibName: HistoryTableViewCell.identifier, bundle: nil),
+                              forCellReuseIdentifier: HistoryTableViewCell.identifier)
     }
     
     private func addVisibleButton() {
@@ -141,17 +151,65 @@ extension HomeScreenViewController: UICollectionViewDelegateFlowLayout {
 // MARK: UITableViewDelegate
 extension HomeScreenViewController: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: Need action
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
+    }
+    
 }
  
 // MARK: UITableViewDataSource
 extension HomeScreenViewController: UITableViewDataSource {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return recent.count
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: HistoryTableViewCell.identifier, for: indexPath) as? HistoryTableViewCell else {
+            return UITableViewCell()
+        }
+        cell.setupHistoryRecent(recent: recent[indexPath.section])
+        return cell
+    }
+    
+}
+
+extension HomeScreenViewController: HomeScreenProtocols {
+    
+    func topupRouter() {
+        let vc = TopUpScreenViewController.instantiate(name: .TopUpScreenViewController)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+    func transferRouter() {
+        let vc = TransferScreenViewController.instantiate(name: .TransferScreenViewController)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+    func cashInRouter() {
+        let vc = CashInScreenViewController.instantiate(name: .CashInScreenViewController)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+    func cashOutRouter() {
+        let vc = CashOutScreenViewController.instantiate(name: .CashOutScreenViewcontroller)
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
     }
     
 }
@@ -160,19 +218,19 @@ extension HomeScreenViewController: UITableViewDataSource {
 extension HomeScreenViewController {
     
     @IBAction func didTappedTopUpBtn(_ sender: UIButton) {
-        
+        topupRouter()
     }
     
     @IBAction func didTappedTransferBtn(_ sender: UIButton) {
-        
+        transferRouter()
     }
     
     @IBAction func didTappedCashInBtn(_ sender: UIButton) {
-        
+        cashInRouter()
     }
     
     @IBAction func didTappedCashOutBtn(_ sender: UIButton) {
-        
+        cashOutRouter()
     }
     
 }
